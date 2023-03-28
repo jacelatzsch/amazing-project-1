@@ -86,4 +86,4 @@ MIT: For more information, please refer to the license listed in the repository
 
 ## Deployed Version
 
-Visit the live deployed version of the project at: <https://jstanion.github.io/amazing-project-1/>
+Visit the live deployed version of the project at: <https://jacelatzsch.github.io/amazing-project-1/>
