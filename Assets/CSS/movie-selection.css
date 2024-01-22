@@ -8,6 +8,10 @@ footer {
     transform: scaleY(-1);
 }
 
+.genre-title {
+    margin-right: 10.5%
+}
+
 .movie-data-container {
     height: 50rem;
     width: 30rem;
@@ -34,7 +38,6 @@ footer {
 .movie-image {
     height: 71%;
     width: 68.5%;
-    margin: 1.7rem;
 }
 
 .marquee-section {
@@ -99,17 +102,19 @@ footer {
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1041px) {
+@media screen and (min-width: 768px) and (max-width: 1041px) {
     main {
         padding-top: 20%;
         padding-bottom: 30%;
     }
-}
 
-@media screen and (min-width: 1042px) and (max-width: 1445px) {
-    main {
-        padding-top: 5%;
-        padding-bottom: 19%;
+    #page-load-gif {
+        margin: 13%;
     }
 }
 
+@media screen and (max-width: 1023px) {
+    #bulma-custom .navbar-menu {
+        background-color: rgba(10,10,10,.1);
+    }
+}
